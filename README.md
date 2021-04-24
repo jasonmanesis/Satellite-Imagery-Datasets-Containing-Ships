@@ -1,9 +1,9 @@
-# Satellite imagery datasets containing ships. 
+# Satellite imagery datasets containing ships.<a name="TOP"></a> 
 A list of optical and radar satellite datasets for ship detection, classification, semantic segmentation and instance segmentation tasks.
 
 
 ## Radar Satellite Datasets : 
-* **SSDD (SAR Ship Detection Dataset) - 2017, Li et al.**  ↦ Detection+ Semantic Segmentation || Benchmark Dataset
+* **SSDD (SAR Ship Detection Dataset) - 2017, Li et al.**  ↦ Detection+ Semantic Segmentation 
 * **OpenSARship-1.0, 2.0- 2017, Huang et al.** ↦ Detection
 * **SAR-Ship-Dataset - 2019, Wang et al.** ↦ Detection  *                              
 * **AIR-SARShip -1.0, 2.0 - 2019, Sun et al.** ↦ Detection  *                                        
@@ -12,7 +12,7 @@ A list of optical and radar satellite datasets for ship detection, classificatio
 * **FUSAR-Ship1.0 - 2020, Hou et al.** ↦ Classification 
 
 ## Optical Satellite Datasets : 
-* **HRSC2016 (High Resolution Ship Collection 2016) - 2016, Liu et al.** ↦ Detection + Instance Segmentation || Benchmark Dataset
+* **HRSC2016 (High Resolution Ship Collection 2016) - 2016, Liu et al.** ↦ Detection + Instance Segmentation 
 * **Ships in Satellite Imagery Dataset - 2017, Kaggle** ↦ Detection as Classification
 * **Airbus Ship Detection Challenge Dataset - 2018, Kaggle** ↦ Detection  
 * **xView Dataset  - 2018, Lam et al.** ↦ Detection  
@@ -25,9 +25,12 @@ A list of optical and radar satellite datasets for ship detection, classificatio
 
 *The specific datasets could not be accessed.    
 
+
 <p align="center">
-    RADAR SATELLITE DATASETS
+    **RADAR SATELLITE DATASETS**
 </p>
+
+- - - -
 
 ### SSDD (SAR Ship Detection Dataset)
 * It consists of 1160 SAR images with average dimensions of 500×500 pixels.
@@ -137,6 +140,8 @@ A list of optical and radar satellite datasets for ship detection, classificatio
 <p align="center">
     OPTICAL SATELLITE DATASETS
 </p>
+
+- - - -
 
 ### HRSC2016 (High Resolution Ship Collection 2016)
 * Dataset contains 1061 images which derived from Google Earth. 
@@ -264,3 +269,5 @@ A list of optical and radar satellite datasets for ship detection, classificatio
 * Every instance in the above images is labeled with a horizontal bounding box.
 * Paper Link: https://iopscience.iop.org/article/10.1088/1742-6596/1642/1/012003 
 * Dataset Link: -
+
+[Go To TOP](#TOP)
