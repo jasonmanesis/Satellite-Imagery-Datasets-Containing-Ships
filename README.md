@@ -211,7 +211,56 @@ A list of optical and radar satellite datasets for ship detection, classificatio
 
 
 ### MASATI-v2 (MAritime SATellite Imagery dataset)
+* The specific dataset consists of 7389 images with average dimensions of 512×512 pixels.
+* The above 7389 images were obtained from Microsoft Bing maps and they are stored as .png format.
+* In this dataset, each image has been manually labeled according to the following seven classes: 
+    * Land : 1078 images 	| main class: Non-Ship 		| description: Land (no ships).
+    * Coast : 1132 images 	| main class: Non-Ship 		| description: Coast (no ships).
+    * Sea : 1022 images 	| main class: Non-Ship 		| description: Sea (no ships).
+    * Ship : 1027 images 	          | main class: Ship 		| description: Sea with a ship (no coast).
+    * Multi : 304 images 	          | main class: Ship 		| description: Multiple ships.
+    * Coast-ship : 1037 images       | main class: Ship     	| description: Coast with ships.
+    * Detail : 1789 images 	          | main class: Ship 		| description: Ship details. (Big Ship)
+* This labeling is stored in XML files using the annotation format of PASCAL VOC.
+* The above .xml files contain the image’s dimensions and channels, instance’s class name, and the four pairs of pixel coordinates for every instance’s  corresponding bounding box.
+* Paper Link: https://www.mdpi.com/2072-4292/10/4/511 
+* Dataset Link: https://www.iuii.ua.es/datasets/masati/ 
+
 ### DIOR(object Detection In Optical Remote sensing images)
+* DIOR consists of 23463 optimal remote sensing images and 192472 object instances that are manually labeled with axis‐aligned bounding boxes, covered by 20 common object categories.
+* The size of images in the dataset is 800×800 pixels and the spatial resolutions range from 0.5m to 30m.
+* The above images acquired from Google Earth.
+* The 2702 of the 23463 images contain ~63000 ship instances.  
+* Paper Link: https://arxiv.org/abs/1909.00133 
+* Dataset Link 1: https://pan.baidu.com/s/1Fc-zJtHy-6iIewvsKWPDnA 
+* Dataset Link 2: http://www.escience.cn/people/gongcheng/DIOR.html
+
 ### FGSD (Fine-Grained Ship Detection)
+* The specific dataset contains 2612 images from 17 large ports including China, Japan, the United States and Spain.
+* The above images have dimensions of 930 × 930 pixels and their spatial resolutions range from 0.12m to 1.93m.
+* These images contain 5634 ship instances.
+* There are 43 categories of ships and a ’dock’ category in the dataset. 
+* These 43 classes of ships were divided into 4 Level-2 categories, including warship, carrier, submarine and civil ship. And all ships shares the same level-1 label ship.
+    * 1 Level-1 category : ship
+    * 4 Level-2 categories : warship, carrier, submarine and civil ship
+    * 43 Level-3 categories :  container, oil tanker, yacht, hovercraft, etc. 
+* Ship samples in FGSD were annotated with both common used bounding box and rotated bounding box. The rotated bounding box is annotated as (xc, yc, w, h, θ).
+* Each image has a corresponding annotation file, which includes the source-port’s ID, the resolution and corresponding Google Earth's resolution level of the image.
+* Paper Link: https://arxiv.org/abs/2003.06832 
+* Dataset: mail to :  ckyan@bupt.edu.cn
+
 ### PSDS (Peruvian Ship Data Set)
+* It consists of 1310 images with size of 900 × 900 pixels.
+* These 1310 images  include 9662 ship instances. 
+* PSDS is created from 22 satellite images of PERUSAT-1 with 0.7 m spatial resolution.
+* Every instance in the above images is labeled with a horizontal bounding box.
+* Paper Link: https://iopscience.iop.org/article/10.1088/1742-6596/1642/1/012003 
+* Dataset Link: -
+
 ### MSDS (Mini Ship Data Set)
+* The specific dataset consists of generating 2993 images of 900 × 900 pixels.
+* MSDS has been generated using Google Earth satellite images.
+* The extracted 2993 images contain 4710 ship instances.
+* Every instance in the above images is labeled with a horizontal bounding box.
+* Paper Link: https://iopscience.iop.org/article/10.1088/1742-6596/1642/1/012003 
+* Dataset Link: -
