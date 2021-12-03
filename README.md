@@ -3,13 +3,14 @@ A list of optical and radar satellite datasets for ship detection, classificatio
 
 
 ## :satellite: Radar Satellite Datasets : 
-* **SSDD (SAR Ship Detection Dataset) - 2017, Li et al.**  ↦ Detection+ Semantic Segmentation 
+* **SSDD (SAR Ship Detection Dataset) - 2017, Li et al.**  ↦ Detection + Semantic Segmentation 
 * **OpenSARship-1.0, 2.0- 2017, Huang et al.** ↦ Detection
 * **SAR-Ship-Dataset - 2019, Wang et al.** ↦ Detection  *                              
 * **AIR-SARShip -1.0, 2.0 - 2019, Sun et al.** ↦ Detection  *                                        
 * **HRSID (High-Resolution SAR Images Dataset) - 2020, Wei et al.** ↦ Detection + Instance Segmentation
 * **LS-SSDD-v1.0 (Large-Scale SAR Ship Detection Dataset) - 2020, Zhang et al.** ↦ Detection
 * **FUSAR-Ship1.0 - 2020, Hou et al.** ↦ Classification 
+* **SSDD (SAR Ship Detection Dataset) - 2021, Zhang et al.** ↦ Detection + Instance Segmentation 
 
 ## :eyes: Optical Satellite Datasets : 
 * **HRSC2016 (High Resolution Ship Collection 2016) - 2016, Liu et al.** ↦ Detection + Instance Segmentation 
@@ -108,7 +109,7 @@ A list of optical and radar satellite datasets for ship detection, classificatio
 * The original imageries for constructing HRSID are 99 Sentinel-1B imageries, 36 TerraSAR-X and 1 TanDEM-X imageries.
 * The above 136 panoramic SAR imageries cropped to 5604 high-resolution SAR images.
 * These 5604 images have dimensions of 800 × 800 pixels, resolution of 96 dpi, and there are in .jpeg format.
-* The colour depth of the images is 24 bit (8 bits per channel). 
+* The colour depth of the images is 8 bits (one channel). 
 * The extracted 5604 high-resolution SAR images contain 16951 ship instances.
 * The spatial resolutions of SAR images are 0.5, 1 and 3 meters per pixel.
 * The annotations of each instance are the corresponding bounding box and the ship’s outline. 
@@ -137,6 +138,21 @@ A list of optical and radar satellite datasets for ship detection, classificatio
 * Paper Link: https://link.springer.com/article/10.1007/s11432-019-2772-5 
 * Dataset Link: http://www.emwlab.fudan.edu.cn/resources/main.psp 
 
+### SSDD (SAR Ship Detection Dataset) 2021
+* It consists of 1160 SAR images with dimensions of 500×350 pixels.
+* This specific dataset includes 2358 ship instances.
+* The spatial resolutions of SAR images are from 1 to 15 meters per pixel.
+* These 1160 images were obtained from RadarSat-2, TerraSAR-X and Sentinel-1 satellites.
+* The above 1160 images is are in .jpeg format with 24 bit color depth.
+* Dataset images have mixed HH, HV, VV, and VH polarizations.
+* In the new version of SSDD, three kinds of annotational information are provided: 
+  *  Horizontal bounding box.
+  *  Rotated bounding box.
+  *  Pixel-based segmentation.
+* The above annotations are in Pascal VOC and MS COCO dataset formats, exept of rotated bounding boxes, which are only available on Pascal VOC format.
+* Paper Link: https://www.mdpi.com/2072-4292/13/18/3690 
+* Dataset Link: https://drive.google.com/file/d/1glNJUGotrbEyk43twwB9556AdngJsynZ/view?usp=sharing 
+
 - - - -
 <p align="center">
     <b>Optical Satellite Datasets</b>
@@ -150,7 +166,7 @@ A list of optical and radar satellite datasets for ship detection, classificatio
 * The image spatial resolutions are between 0.4 m and 2 m. 
 * The image sizes range from 300 × 300 to 1500 × 900 and most are larger than 1000 × 600 and are in .bmp format.
 * The colour depth of the above 1061 images is 24 bit (8 bits per channel).
-* In HRSC2016 dataset, three kinds of bounding information is provided: 
+* In HRSC2016 dataset, three kinds of bounding information are provided: 
   *  Horizontal bounding box.
   *  Rotated bounding box.
   *  Pixel-based segmentation.
@@ -214,7 +230,6 @@ A list of optical and radar satellite datasets for ship detection, classificatio
 * Every image has a corresponding .xml file which contains the image’s dimensions, the class name, and the 4 coordinates (of the lower left and upper right points) of each bounding box, for every instance that is shown in the image.
 * Paper Link: - 
 * Dataset Link: https://www.kaggle.com/haashaatif/tgrshrrsd-dataset 
-
 
 ### MASATI-v2 (MAritime SATellite Imagery dataset)
 * The specific dataset consists of 7389 images with average dimensions of 512×512 pixels.
