@@ -2,7 +2,7 @@
 ![GitHub latest commit](https://img.shields.io/github/last-commit/JasonManesis/Satellite-Imagery-Datasets-Containing-Ships?style=for-the-badge)
 
 # Satellite imagery datasets containing ships.<a name="TOP"></a> 
-A list of optical and radar satellite datasets for ship detection, classification, semantic segmentation and instance segmentation tasks.
+A list of radar and optical satellite datasets for ship detection, classification, semantic segmentation and instance segmentation tasks.
 
 <div align="justify">
 
@@ -29,7 +29,8 @@ A list of optical and radar satellite datasets for ship detection, classificatio
 * [**DIOR(object Detection In Optical Remote sensing images) - 2019, Li et al.**](#DIOR) ↦ Detection  *   
 * [**FGSD (Fine-Grained Ship Detection) - 2020, Chen et al.**](#FGSD) ↦ Detection  *   
 * [**PSDS (Peruvian Ship Data Set) + MSDS (Mini Ship Data Set) - 2020, Cordova et al.**](#PSDS) ↦ Detection  *  
-* [**FGSCR-42 (Fine-Grained Ship Classification in Remote sensing images) - 2021, Di et al.**](#FGSCR) ↦ Classification                             
+* [**FGSCR-42 (Fine-Grained Ship Classification in Remote sensing images) - 2021, Di et al.**](#FGSCR) ↦ Classification  
+* [**ShipRSImageNet - 2021, Zhang et al.**](#ShipRSImageNet) ↦ Detection      
 
 *The specific datasets could not be accessed.    
 
@@ -335,6 +336,28 @@ A list of optical and radar satellite datasets for ship detection, classificatio
 * Images in this dataset are collected from multiple datasets such as DOTA, HRSC2016, NWPUVHR-10, etc.
 * Paper Link: https://www.mdpi.com/2072-4292/13/4/747 
 * Dataset Link: https://pan.baidu.com/s/1eXplDfB5fCBPm7WMcFKZkg **password: 9xx8**
+    
+## ShipRSImageNet<a name="ShipRSImageNet"></a> 
+* ShipRSImageNet contains over 3435 images with 17573 ship instances, annotated with both horizontal and orientated bounding boxes.
+* The above 3435 images were obtained from various sensors, satellite platforms, locations, and seasons. 
+* Each image is around 930×930 pixels and contains ships with different scales, orientations, and aspect ratios. 
+* The spatial resolution of the images ranges from 0.12 to 6 m.
+* These 3435 images were collected from:
+    * The xView dataset (532 images).
+    * The HRSC2016 dataset (1057 images).
+    * The FGSD dataset (1846 images).
+    * The Airbus Ship Detection Challenge (21 images).
+    * Chinese satellites, such as GaoFen-2 and JiLin-1 (17 images).
+* Ships in ShipRSImageNet are hierarchically classified into four levels (0-3) and 50 categories (49 ship types and "Dock"). 
+* Level 0 distinguishes whether the object is a ship, namely "Class". Level 1 further classifies the ship object category, named as "Category". Level 2 further subdivides the categories based on level 1 ("Subcategory"). Level 3 is the specific type of ship, named "Type". 
+* The ShipRSImageNet was divided in training, validation and test sets which contain 64% (2198), 16% (550) and 20% (687) of the original images  respectively.
+* Each ship instance has a corresponding set of annotations which are:
+    * A horizontal bounding box ↦ (xmin, ymin, xmax, ymax). 
+    * An oriented bounding box ↦ (xc, yc, w, h, θ).    
+    * A polygon annotation ↦ (x1, y1, x2, y2, x3, y3, x4, y4).
+* The above annotations are available in Pascal VOC and MS COCO dataset formats.   
+* Paper Link: https://ieeexplore.ieee.org/document/9512396 
+* Dataset Link: https://drive.google.com/file/d/1wApkaSoa9mXRfXQiq6lTtlVrv4cSc6vv/view   
 
 </div align="justify">    
 
