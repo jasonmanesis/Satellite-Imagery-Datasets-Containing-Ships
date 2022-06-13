@@ -1,5 +1,5 @@
-![GitHub latest commit](https://img.shields.io/maintenance/yes/2022?style=for-the-badge)
-![GitHub latest commit](https://img.shields.io/github/last-commit/JasonManesis/Satellite-Imagery-Datasets-Containing-Ships?style=for-the-badge)
+![GitHub latest commit](https://img.shields.io/maintenance/yes/2022?style=plastic)
+![GitHub latest commit](https://img.shields.io/github/last-commit/JasonManesis/Satellite-Imagery-Datasets-Containing-Ships?style=plastic)
 
 # Satellite imagery datasets containing ships.<a name="TOP"></a> 
 A list of radar and optical satellite datasets for ship detection, classification, semantic segmentation and instance segmentation tasks.
@@ -30,7 +30,8 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * [**FGSD (Fine-Grained Ship Detection) - 2020, Chen et al.**](#FGSD) ↦ Detection  *   
 * [**PSDS (Peruvian Ship Data Set) + MSDS (Mini Ship Data Set) - 2020, Cordova et al.**](#PSDS) ↦ Detection  *  
 * [**FGSCR-42 (Fine-Grained Ship Classification in Remote sensing images) - 2021, Di et al.**](#FGSCR) ↦ Classification  
-* [**ShipRSImageNet - 2021, Zhang et al.**](#ShipRSImageNet) ↦ Detection      
+* [**ShipRSImageNet - 2021, Zhang et al.**](#ShipRSImageNet) ↦ Detection    
+* [**S2-SHIPS - 2021, Ciocarlan et al.**](#S2ships) ↦ Detection + Semantic Segmentation + Instance Segmentation      
 
 *The specific datasets could not be accessed.    
 
@@ -359,6 +360,27 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Paper Link: https://ieeexplore.ieee.org/document/9512396 
 * Dataset Link: https://drive.google.com/file/d/1wApkaSoa9mXRfXQiq6lTtlVrv4cSc6vv/view   
 
+## S2-SHIPS<a name="S2ships"></a>
+* This dataset includes 16 L2A (BOA reflectance) images of coastline, ports, and the Suez canal. 
+* These images were derived from the original Sentinel-2 images and their dimensions are 1783 × 938 pixels.
+* The above images contain 1053 distinct ship instances with varying sizes from 100-5000 m<sup>2</sup>.
+* Every image is a different scene for which they are available:
+    * The 12 atmospherically corrected Sentinel-2 bands (.tiff).
+    * The NDWI index in .tiff and .png file formats.
+    * A true color image in .tiff and .jpg file formats.
+    * A RGB image (.png).
+    * The image's segmentation mask (.png).
+    * A water mask (.tiff).
+* The above georeferenced images (.tiffs) they are all reprojected to EPSG 3857 and their datatype is UInt16.
+* The georeferenced images of the scenes have the same spatial resolution which is ≈10 m.     
+* The segmentation masks where provided also in the Numpy file format (.npy).
+* An annotation .json file with segmentation masks and horizontal bounding boxes is also provided. 
+* The above annotations follow the conventions of the MS COCO dataset format.
+* This dataset contains 3 classes with ids ∈ {1, 3, 4} which are named 'Ship', 'Doubt' and 'Moored Ship' respectively.
+* Also 6 pretrained backbones are provided (.pth files).
+* Paper Link: https://www.mdpi.com/2072-4292/13/21/4255
+* Dataset Link: https://drive.google.com/file/d/1zDgz6wr5kxikPR7o9nJ2IjMcaqwtiLLu/view  
+    
 </div align="justify">    
 
 
