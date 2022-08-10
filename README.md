@@ -31,7 +31,8 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * [**PSDS (Peruvian Ship Data Set) + MSDS (Mini Ship Data Set) - 2020, Cordova et al.**](#PSDS) ↦ Detection  *  
 * [**FGSCR-42 (Fine-Grained Ship Classification in Remote sensing images) - 2021, Di et al.**](#FGSCR) ↦ Classification  
 * [**ShipRSImageNet - 2021, Zhang et al.**](#ShipRSImageNet) ↦ Detection    
-* [**S2-SHIPS - 2021, Ciocarlan et al.**](#S2ships) ↦ Detection + Semantic Segmentation + Instance Segmentation      
+* [**S2-SHIPS - 2021, Ciocarlan et al.**](#S2ships) ↦ Detection + Semantic Segmentation + Instance Segmentation 
+* [**GF1-LRSD - 2021, Wu et al.**](#GF1LRSD) ↦ Detection  *  
 
 *The specific datasets could not be accessed.    
 
@@ -380,6 +381,16 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Also 6 pretrained backbones are provided (.pth files).
 * Paper Link: https://www.mdpi.com/2072-4292/13/21/4255
 * Dataset Link: https://drive.google.com/file/d/1zDgz6wr5kxikPR7o9nJ2IjMcaqwtiLLu/view  
+
+## GF1-LRSD<a name="GF1LRSD"></a> 
+* The images in this dataset were obtained from level 1A Gaofen-1 (WFV) scenes.
+* GF1-LRSD consists of 4406 images of size 512x512 pixels with 8-bit color depth.
+* The above images contain a total of 7172 ship instances.
+* The spatial resolution of the images equals to 16m per pixel.
+* For the annotation of the targets, horizontal rectangular boxes were used which follow the PASCAL VOC format.
+* Every rectangular box is defined by the coordinates of its top-left and the bottom-right points (xmin, ymin, xmax, ymax). 
+* Paper Link: https://www.mdpi.com/2072-4292/13/19/3890/html 
+* Dataset Link: -
     
 </div align="justify">    
 
