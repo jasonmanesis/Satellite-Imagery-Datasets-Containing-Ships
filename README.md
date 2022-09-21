@@ -16,7 +16,8 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * [**FUSAR-Ship Dataset v1.0 - 2020, Hou et al.**](#FUSAR-Ship) ↦ Classification 
 * [**SSDD (SAR Ship Detection Dataset) - 2021, Zhang et al.**](#SSDD1) ↦ Detection + Instance Segmentation 
 * [**DSSDD (Dual-polarimetric SAR Ship Detection Dataset) - 2021, Hu et al.**](#DSSDD)  ↦ Detection     
-* [**SRSDD-v1.0 (SAR Rotation Ship Detection Dataset) - 2021, Lei et al.**](#SRSDD-v1.0)  ↦ Detection      
+* [**SRSDD-v1.0 (SAR Rotation Ship Detection Dataset) - 2021, Lei et al.**](#SRSDD-v1.0)  ↦ Detection
+* [**xView3-SAR (Multi-modal SAR Ship Detection + Characterization Dataset) - 2022, Paolo, Lin, Gupta, et. al.**](#xView3-SAR) ↦ Detection + Classification + Regression
 
 ## :eyes: Optical Satellite Datasets : 
 * [**HRSC2016 (High Resolution Ship Collection 2016) - 2016, Liu et al.**](#HRSC2016) ↦ Detection + Instance Segmentation 
@@ -190,6 +191,16 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * For every instance, a "difficult" label is provided, which indicates whether the instance is difficult to be detected (1 for difficult, 0 for not difficult).
 * Paper Link: https://www.mdpi.com/2072-4292/13/24/5104
 * Dataset Link: https://pan.baidu.com/s/1EonxuMSDVCnICwSsfWjYew **password:aC1Q**       
+
+## xView3-SAR (Multi-modal SAR Ship Detection + Characterization Dataset)<a name="xView3-SAR"></a> 
+* 991 SAR scenes from Sentinel-1 at 20m resolution with 220,000+ vessel/non-vessel AIS-based annotations with length information.
+* Each xView3-SAR scene has additional, co-registered bathymetry, wind speed, wind quality, and other ancillary information.
+* The dataset has a total of ~1,422 gigapixels (4.7x larger than MS-COCO).
+* Each SAR image is in Interferometric Wide (IW) swath mode.
+* Anntotations are created automatically through a sophisticated AIS-extrapolation algorithm, as well as manually with human experts.
+* Each label has a confidence metric associated with its length at HIGH, MEDIUM, or LOW.
+* Paper Link: https://arxiv.org/abs/2206.00897
+* Dataset Link: https://iuu.xview.us/   
     
 # Optical Satellite Datasets
 
