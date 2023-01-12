@@ -33,7 +33,9 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * [**FGSCR-42 (Fine-Grained Ship Classification in Remote sensing images) - 2021, Di et al.**](#FGSCR) ↦ Classification  
 * [**ShipRSImageNet - 2021, Zhang et al.**](#ShipRSImageNet) ↦ Detection    
 * [**S2-SHIPS - 2021, Ciocarlan et al.**](#S2ships) ↦ Detection + Semantic Segmentation + Instance Segmentation 
-* [**GF1-LRSD - 2021, Wu et al.**](#GF1LRSD) ↦ Detection  *  
+* [**GF1-LRSD - 2021, Wu et al.**](#GF1LRSD) ↦ Detection  * 
+* [**VHRShips - 2022, Kizilkaya et al.**](#VHRShips) ↦ Detection  *
+
 
 *The specific datasets could not be accessed.    
 
@@ -402,6 +404,20 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Every rectangular box is defined by the coordinates of its top-left and the bottom-right points (xmin, ymin, xmax, ymax). 
 * Paper Link: https://www.mdpi.com/2072-4292/13/19/3890/html 
 * Dataset Link: -
+
+## VHRShips<a name="VHRShips"></a> 
+* VHRShips contains 6312 images from 52 locations collected from Google Earth. 
+* The above dataset includes 1000 images without a ship and 5312 images with single or multiple ships.
+* All images were collected at 500m eye altitude level and in the high-definition spatial resolution format (Google Earth).
+* These images artificially have the same spatial resolution of 43cm per pixel.
+* The above images have 3 channels (rgb) and their dimensions equal to 720x1280 pixels.
+* Every ship instance has a corresponding horizontal bounding box.
+* The above annotations are defined by the coordinates of their top-left and the bottom-right points.
+* VHRShips dataset includes 11.179 ship instances in 24 parent and 11 child ship categories.
+* The parent classes contain one class regarding navy vessels and 23 other classes with civilian ship types. 
+* Only the "navy" parent class contains 11 child classes (Frigate, Submarine, etc.). 
+* Paper Link: https://www.mdpi.com/2220-9964/11/8/445?fbclid=IwAR22imkbcHMaHydtuhi-I5eLu35BSexNoagv_Tmt4LyS6EIaR8sHV45RLsU
+* Dataset Link: https://github.com/radres333/VHRShips
     
 </div align="justify">    
 
