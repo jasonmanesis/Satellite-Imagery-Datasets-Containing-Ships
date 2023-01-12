@@ -416,7 +416,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * VHRShips dataset includes 11.179 ship instances in 24 parent and 11 child ship categories.
 * The parent classes contain one class regarding navy vessels and 23 other classes with civilian ship types. 
 * Only the "navy" parent class contains 11 child classes (Frigate, Submarine, etc.). 
-* Paper Link: https://www.mdpi.com/2220-9964/11/8/445?fbclid=IwAR22imkbcHMaHydtuhi-I5eLu35BSexNoagv_Tmt4LyS6EIaR8sHV45RLsU
+* Paper Link: https://www.mdpi.com/2220-9964/11/8/445
 * Dataset Link: https://github.com/radres333/VHRShips
     
 </div align="justify">    
