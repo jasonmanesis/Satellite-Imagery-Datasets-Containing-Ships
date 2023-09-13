@@ -35,6 +35,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * [**S2-SHIPS - 2021, Ciocarlan et al.**](#S2ships) ↦ Detection + Semantic Segmentation + Instance Segmentation 
 * [**GF1-LRSD - 2021, Wu et al.**](#GF1LRSD) ↦ Detection  * 
 * [**VHRShips - 2022, Kizilkaya et al.**](#VHRShips) ↦ Detection  *
+* [**SDS (Dataset for Ship Detection and Segmentation) - 2022, Lee et al.**](#SDS) ↦ Detection + Instance Segmentation  *
 
 
 *The specific datasets could not be accessed.    
@@ -418,6 +419,24 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Only the "navy" parent class contains 11 child classes (Frigate, Submarine, etc.). 
 * Paper Link: https://www.mdpi.com/2220-9964/11/8/445
 * Dataset Link: https://github.com/radres333/VHRShips
+
+## SDS (Dataset for Ship Detection and Segmentation)<a name="SDS"></a>
+* The dataset contains 1984 images of harbors, shorelines, shallow waters, and vast oceans.
+* These data collected under various conditions such as shooting time, ship location, and climate variations.
+* The above images have dimensions of 3000 × 3000 pixels and were collected from the Google Earth platform.
+* These images contain a total of 13.487 ship instances.
+* The above ship instances form 5 different classes of ships: 
+    * Cargo ships: 3759 instances 
+    * Oil tankers: 399 instances
+    * Aircraft carriers: 87 instances
+    * Maritime vessels: 8419 instances
+    * Warships: 823 instances
+* Ship samples in SDS were annotated with rotated bounding boxes and the corresponding masks.
+* The above segmentation masks contain a sea-land segmentation for all the available scenes.
+* Paper Link: https://www.mdpi.com/1424-8220/22/23/9491
+* Dataset Link: -
+
+
     
 </div align="justify">    
 
