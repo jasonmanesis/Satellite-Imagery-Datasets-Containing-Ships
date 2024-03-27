@@ -19,6 +19,20 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * [**SRSDD-v1.0 (SAR Rotation Ship Detection Dataset) - 2021, Lei et al.**](#SRSDD-v1.0)  ↦ Detection
 * [**xView3-SAR (Multi-modal SAR Ship Detection + Characterization Dataset) - 2022, Paolo, Lin, Gupta, et. al.**](#xView3-SAR) ↦ Detection + Classification + Regression
 
+|Νο.|Dataset Name| Authors| Year| Spatial Resolution| Satellite(s)| Band(s)| Polarization(s)| Ship Instances| Task(s)| Access|
+|:-:|:----------:|:------:|:---:|:-----------------:|:-----------:|:------:|:--------------:|:-------------:|:------:|:-----:|
+|1|[**SSDD (SAR Ship Detection Dataset)**](#SSDD)||2017|| | | | | |:heavy_check_mark:|
+|2|[**OpenSARship-1.0, 2.0**](#OpenSARship-1.0) ||2017 || | | | | |:heavy_check_mark:|
+|3| | | | | | | | ||:x:|
+|4| | | | | | | | ||:x:|
+|5| | | | | | | | ||:heavy_check_mark:|
+|6| | | | | | | | ||:heavy_check_mark:|
+|7| | | | | | | | ||:heavy_check_mark:|
+|8| | | | | | | | ||:heavy_check_mark:|
+|9| | | | | | | | ||:heavy_check_mark:|
+|10| | | | | | | | ||:heavy_check_mark:|
+|11| | | | | | | | ||:heavy_check_mark:|
+
 ## :eyes: Optical Satellite Datasets : 
 * [**HRSC2016 (High Resolution Ship Collection 2016) - 2016, Liu et al.**](#HRSC2016) ↦ Detection + Instance Segmentation 
 * [**Ships in Satellite Imagery Dataset - 2017, Kaggle**](#Ships) ↦ Classification
