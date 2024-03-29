@@ -4,7 +4,7 @@
 # Satellite imagery datasets containing ships.<a name="TOP"></a> 
 A list of radar and optical satellite datasets for ship detection, classification, semantic segmentation and instance segmentation tasks.
 
-<div align="justify">
+
 
 ## :satellite: Radar Satellite Datasets : 
 * [**SSDD (SAR Ship Detection Dataset) - 2017, Li et al.**](#SSDD)  ↦ Detection + Semantic Segmentation    
@@ -19,19 +19,182 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * [**SRSDD-v1.0 (SAR Rotation Ship Detection Dataset) - 2021, Lei et al.**](#SRSDD-v1.0)  ↦ Detection
 * [**xView3-SAR (Multi-modal SAR Ship Detection + Characterization Dataset) - 2022, Paolo, Lin, Gupta, et. al.**](#xView3-SAR) ↦ Detection + Classification + Regression
 
-|Νο.|Dataset Name| Authors| Year| Spatial Resolution| Satellite(s)| Band(s)| Polarization(s)| Ship Instances| Task(s)| Access|
-|:-:|:----------:|:------:|:---:|:-----------------:|:-----------:|:------:|:--------------:|:-------------:|:------:|:-----:|
-|**1**|[**SSDD (SAR Ship Detection Dataset)**](#SSDD)||2017|| | | | | |:heavy_check_mark:|
-|**2**|[**OpenSARship-1.0, 2.0**](#OpenSARship-1.0) ||2017 || | | | | |:heavy_check_mark:|
-|**3**| | | | | | | | ||:x:|
-|**4**| | | | | | | | ||:x:|
-|**5**| | | | | | | | ||:heavy_check_mark:|
-|**6**| | | | | | | | ||:heavy_check_mark:|
-|**7**| | | | | | | | ||:heavy_check_mark:|
-|**8**| | | | | | | | ||:heavy_check_mark:|
-|**9**| | | | | | | | ||:heavy_check_mark:|
-|**10**| | | | | | | | ||:heavy_check_mark:|
-|**11**| | | | | | | | ||:heavy_check_mark:|
+
+<table border="1" align="center"> 
+  <caption>Radar Satellite Datasets</caption> 
+  <tr>
+    <td rowspan="2"><b>No.</b></td>
+    <td rowspan="2"><b>Dataset Name</b></td>
+    <td rowspan="2"><b>Authors</b></td>
+    <td rowspan="2"><b>Year</b></td>
+    <td colspan="5"><b>Task</b></td>
+    <td rowspan="2"><b>Access</b></td>
+  </tr>
+  <tr>
+    <td colspan="1"><i>Detection</i></td>
+    <td colspan="1"><i>Semantic Segmentation</i></td>
+    <td colspan="1"><i>Instance Segmentation</i></td>
+    <td colspan="1"><i>Classification</i></td>
+    <td colspan="1"><i>Regression</i></td>
+  </tr>
+  <tr>
+    <td style="background-color:#FF1744">1</td>
+    <td>SSDD (SAR Ship Detection Dataset)</td>
+    <td> </td>
+    <td>2017</td>
+    <td>:heavy_check_mark:</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:ballot_box_with_check:</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>SSDD (SAR Ship Detection Dataset)</td>
+    <td> </td>
+    <td>2017</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:heavy_check_mark:</td>
+  </tr>  
+     </tr>
+    <tr>
+    <td>3</td>
+    <td>SSDD (SAR Ship Detection Dataset)</td>
+    <td> </td>
+    <td>2017</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:heavy_check_mark:</td>
+  </tr>
+    </tr>
+    <tr>
+    <td>4</td>
+    <td>SSDD (SAR Ship Detection Dataset)</td>
+    <td> </td>
+    <td>2017</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:heavy_check_mark:</td>
+  </tr>  
+     </tr>
+    <tr>
+    <td>5</td>
+    <td>SSDD (SAR Ship Detection Dataset)</td>
+    <td> </td>
+    <td>2017</td>
+    <td>:heavy_check_mark:</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:heavy_check_mark:</td>
+  </tr>
+    </tr>
+    <tr>
+    <td>6</td>
+    <td>SSDD (SAR Ship Detection Dataset)</td>
+    <td> </td>
+    <td>2017</td>
+    <td>:heavy_check_mark:</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:heavy_check_mark:</td>
+  </tr>  
+     </tr>
+    <tr>
+    <td>7</td>
+    <td>SSDD (SAR Ship Detection Dataset)</td>
+    <td> </td>
+    <td>2017</td>
+    <td>:heavy_check_mark:</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:heavy_check_mark:</td>
+  </tr>
+    </tr>
+    <tr>
+    <td>8</td>
+    <td>SSDD (SAR Ship Detection Dataset)</td>
+    <td> </td>
+    <td>2017</td>
+    <td>:heavy_check_mark:</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:heavy_check_mark:</td>
+  </tr>  
+     </tr>
+    <tr>
+    <td>9</td>
+    <td>SSDD (SAR Ship Detection Dataset)</td>
+    <td> </td>
+    <td>2017</td>
+    <td>:heavy_check_mark:</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:heavy_check_mark:</td>
+  </tr>
+    </tr>
+    <tr>
+    <td>10</td>
+    <td>SSDD (SAR Ship Detection Dataset)</td>
+    <td> </td>
+    <td>2017</td>
+    <td>:heavy_check_mark:</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:heavy_check_mark:</td>
+  </tr>  
+     </tr>
+    <tr>
+    <td>11</td>
+    <td>SSDD (SAR Ship Detection Dataset)</td>
+    <td> </td>
+    <td>2017</td>
+    <td>:heavy_check_mark:</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:heavy_check_mark:</td>
+</table>
+
+
+<div align="justify">
+
+|Νο.|Dataset Name|Authors|Year|Task(s)|Access|
+|:-:|:----------:|:-----:|:--:|:-----:|:----:|
+|**1**|[**SSDD (SAR Ship Detection Dataset)**](#SSDD)||2017|| | | | |Detection + Semantic Segmentation|:heavy_check_mark:|
+|**2**|[**OpenSARship-1.0, 2.0**](#OpenSARship-1.0) ||2017 || | | | |Detection|:heavy_check_mark:|
+|**3**|[**OpenSARship-1.0, 2.0**](#OpenSARship-1.0)  |  | 2019| | | | | |Detection|:x:|
+|**4**|[**OpenSARship-1.0, 2.0**](#OpenSARship-1.0)  | | 2019| | | | | |Detection|:x:|
+|**5**|[**OpenSARship-1.0, 2.0**](#OpenSARship-1.0)  | | 2020| | | | | |Detection + Instance Segmentation|:heavy_check_mark:|
+|**6**| [**OpenSARship-1.0, 2.0**](#OpenSARship-1.0) | | 2020| | | | | |Detection|:heavy_check_mark:|
+|**7**| [**OpenSARship-1.0, 2.0**](#OpenSARship-1.0) | | 2020| | | | | |Classification|:heavy_check_mark:|
+|**8**| [**OpenSARship-1.0, 2.0**](#OpenSARship-1.0) | | 2021| | | | | |Detection + Instance Segmentation|:heavy_check_mark:|
+|**9**| [**OpenSARship-1.0, 2.0**](#OpenSARship-1.0) | | 2021| | | | | |Detection|:heavy_check_mark:|
+|**10**|[**OpenSARship-1.0, 2.0**](#OpenSARship-1.0)  | | 2021| | | | | |Detection|:heavy_check_mark:|
+|**11**|[**OpenSARship-1.0, 2.0**](#OpenSARship-1.0)  | | 2022| | | | | |Detection + Classification + Regression|:heavy_check_mark:|
 
 ## :eyes: Optical Satellite Datasets : 
 * [**HRSC2016 (High Resolution Ship Collection 2016) - 2016, Liu et al.**](#HRSC2016) ↦ Detection + Instance Segmentation 
