@@ -25,7 +25,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
   </tr>
   <tr>
     <td>1</td>
-    <td><a href="#SSDD">SSDD (SAR Ship Detection Dataset)</a></td>
+    <td>SSDD (SAR Ship Detection Dataset)</td>
     <td>Li et al.</td>
     <td>2017</td>
     <td>:heavy_check_mark:</td>
@@ -160,7 +160,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 ---
 
 ## B) Information about the datasets:
-## [1. SSDD (SAR Ship Detection Dataset)](#SSDD)
+## 1. SSDD (SAR Ship Detection Dataset)<a name="SSDD"></a>
 * It consists of 1160 SAR images with average dimensions of 500×500 pixels.
 * This specific dataset includes 2358 ship instances.
 * The spatial resolutions of SAR images are from 1 to 15 meters per pixel.
