@@ -1,50 +1,166 @@
 ![GitHub latest commit](https://img.shields.io/maintenance/yes/2023?style=plastic&service=github)
 ![GitHub latest commit](https://img.shields.io/github/last-commit/jasonmanesis/Satellite-Imagery-Datasets-Containing-Ships?style=plastic&service=github)
 
-# Satellite imagery datasets containing ships.<a name="TOP"></a> 
+# **Satellite imagery datasets containing ships.**<a name="TOP"></a> 
 A list of radar and optical satellite datasets for ship detection, classification, semantic segmentation and instance segmentation tasks.
 
-<div align="justify">
+# :satellite: Radar Satellite Datasets 
+## A) Table with available datasets:
+<table border="1" align="center"> 
+  <caption><b></b></caption> 
+  <tr>
+    <td rowspan="2"><b>No.</b></td>
+    <td rowspan="2"><b>Dataset Name</b></td>
+    <td rowspan="2"><b>Authors</b></td>
+    <td rowspan="2"><b>Year</b></td>
+    <td colspan="5"><b>Task</b></td>
+    <td rowspan="2"><b>Dataset Access</b></td>
+  </tr>
+  <tr>
+    <td><i>Detection</i></td>
+    <td><i>Semantic Segmentation</i></td>
+    <td><i>Instance Segmentation</i></td>
+    <td><i>Classification</i></td>
+    <td><i>Regression</i></td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>SSDD (SAR Ship Detection Dataset)</td>
+    <td>Li et al.</td>
+    <td>2017</td>
+    <td>:heavy_check_mark:</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:ballot_box_with_check:</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>OpenSARship-1.0, 2.0</td>
+    <td>Huang et al.</td>
+    <td>2017</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:ballot_box_with_check:</td>
+  </tr>  
+  <tr>
+    <td>3</td>
+    <td>SAR-Ship-Dataset</td>
+    <td>Wang et al.</td>
+    <td>2019</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>⛔</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>AIR-SARShip-1.0, 2.0</td>
+    <td>Sun et al.</td>
+    <td>2019</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>⛔</td>
+  </tr>  
+  <tr>
+    <td>5</td>
+    <td>HRSID (High-Resolution SAR Images Dataset)</td>
+    <td>Wei et al.</td>
+    <td>2020</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:ballot_box_with_check:</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>LS-SSDD-v1.0 (Large-Scale SAR Ship Detection Dataset)</td>
+    <td>Zhang et al.</td>
+    <td>2020</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:ballot_box_with_check:</td>
+  </tr>  
+  <tr>
+    <td>7</td>
+    <td>FUSAR-Ship Dataset v1.0</td>
+    <td>Hou et al.</td>
+    <td>2020</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:ballot_box_with_check:</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>SSDD (SAR Ship Detection Dataset)</td>
+    <td>Zhang et al.</td>
+    <td>2021</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:ballot_box_with_check:</td>
+  </tr>  
+  <tr>
+    <td>9</td>
+    <td>DSSDD (Dual-polarimetric SAR Ship Detection Dataset)</td>
+    <td>Hu et al.</td>
+    <td>2021</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:ballot_box_with_check:</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>SRSDD-v1.0 (SAR Rotation Ship Detection Dataset)</td>
+    <td>Lei et al.</td>
+    <td>2021</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:ballot_box_with_check:</td>
+  </tr>  
+  <tr>
+    <td>11</td>
+    <td>xView3-SAR (Multi-modal SAR Ship Detection + Characterization Dataset)</td>
+    <td>Paolo, Lin, Gupta, et al.</td>
+    <td>2022</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:heavy_check_mark:</td>
+    <td>:heavy_check_mark:</td>
+    <td>:ballot_box_with_check:</td>
+  </tr>
+</table>
 
-## :satellite: Radar Satellite Datasets : 
-* [**SSDD (SAR Ship Detection Dataset) - 2017, Li et al.**](#SSDD)  ↦ Detection + Semantic Segmentation    
-* [**OpenSARship-1.0, 2.0- 2017, Huang et al.**](#OpenSARship-1.0) ↦ Detection
-* [**SAR-Ship-Dataset - 2019, Wang et al.**](#SAR-Ship-Dataset) ↦ Detection  *                             
-* [**AIR-SARShip -1.0, 2.0 - 2019, Sun et al.**](#AIR-SARShip-1.0) ↦ Detection  *                                        
-* [**HRSID (High-Resolution SAR Images Dataset) - 2020, Wei et al.**](#HRSID) ↦ Detection + Instance Segmentation
-* [**LS-SSDD-v1.0 (Large-Scale SAR Ship Detection Dataset) - 2020, Zhang et al.**](#LS-SSDD-v1.0) ↦ Detection
-* [**FUSAR-Ship Dataset v1.0 - 2020, Hou et al.**](#FUSAR-Ship) ↦ Classification 
-* [**SSDD (SAR Ship Detection Dataset) - 2021, Zhang et al.**](#SSDD1) ↦ Detection + Instance Segmentation 
-* [**DSSDD (Dual-polarimetric SAR Ship Detection Dataset) - 2021, Hu et al.**](#DSSDD)  ↦ Detection     
-* [**SRSDD-v1.0 (SAR Rotation Ship Detection Dataset) - 2021, Lei et al.**](#SRSDD-v1.0)  ↦ Detection
-* [**xView3-SAR (Multi-modal SAR Ship Detection + Characterization Dataset) - 2022, Paolo, Lin, Gupta, et. al.**](#xView3-SAR) ↦ Detection + Classification + Regression
+---
 
-## :eyes: Optical Satellite Datasets : 
-* [**HRSC2016 (High Resolution Ship Collection 2016) - 2016, Liu et al.**](#HRSC2016) ↦ Detection + Instance Segmentation 
-* [**Ships in Satellite Imagery Dataset - 2017, Kaggle**](#Ships) ↦ Classification
-* [**Airbus Ship Detection Challenge Dataset - 2018, Kaggle**](#Airbus) ↦ Detection  
-* [**xView Dataset  - 2018, Lam et al.**](#xView) ↦ Detection  
-* [**DOTA (Dataset for Object deTection in Aerial images) - 2018, Xia et al.**](#DOTA) ↦ Detection   
-* [**TGRS-HRRSD (High-Resolution Remote Sensing object Detection) - 2018, Kaggle**](#TGRS) ↦ Detection
-* [**MASATI-v2 (MAritime SATellite Imagery dataset) - 2018,  Gallego et al.**](#MASATI) ↦ Detection
-* [**DIOR(object Detection In Optical Remote sensing images) - 2019, Li et al.**](#DIOR) ↦ Detection  *   
-* [**FGSD (Fine-Grained Ship Detection) - 2020, Chen et al.**](#FGSD) ↦ Detection  *   
-* [**PSDS (Peruvian Ship Data Set) + MSDS (Mini Ship Data Set) - 2020, Cordova et al.**](#PSDS) ↦ Detection  *  
-* [**FGSCR-42 (Fine-Grained Ship Classification in Remote sensing images) - 2021, Di et al.**](#FGSCR) ↦ Classification  
-* [**ShipRSImageNet - 2021, Zhang et al.**](#ShipRSImageNet) ↦ Detection    
-* [**S2-SHIPS - 2021, Ciocarlan et al.**](#S2ships) ↦ Detection + Semantic Segmentation + Instance Segmentation 
-* [**GF1-LRSD - 2021, Wu et al.**](#GF1LRSD) ↦ Detection  * 
-* [**VHRShips - 2022, Kizilkaya et al.**](#VHRShips) ↦ Detection  *
-* [**SDS (Dataset for Ship Detection and Segmentation) - 2022, Lee et al.**](#SDS) ↦ Detection + Instance Segmentation  *
-
-
-*The specific datasets could not be accessed.    
-
-    
-# Radar Satellite Datasets
-
-  
-## SSDD (SAR Ship Detection Dataset)<a name="SSDD"></a> 
+## B) Information about the datasets:
+## 1. SSDD (SAR Ship Detection Dataset)<a name="SSDD"></a>
 * It consists of 1160 SAR images with average dimensions of 500×500 pixels.
 * This specific dataset includes 2358 ship instances.
 * The spatial resolutions of SAR images are from 1 to 15 meters per pixel.
@@ -55,7 +171,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Paper Link: https://ieeexplore.ieee.org/document/8124934 
 * Dataset Link: https://drive.google.com/file/d/1grDw3zbGjQKYPjOxv9-h4WSUctoUvu1O/view
 
-## OpenSARship-1.0<a name="OpenSARship-1.0"></a> 
+## 2. OpenSARship-1.0<a name="OpenSARship-1.0"></a> 
 * OpenSARShip 1.0 is a medium-resolution ship dataset consisted of 11346 image chips cropped from a total of 41 Sentinel-1 images.
 * It covers mainly 5 ports in Asia and it has 17 types (AIS types) of ships in total.
 * The spatial resolutions of the images are 2.7 × 22 to 3.6 × 22 and 20 × 22 meters.
@@ -70,7 +186,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Paper Link: https://ieeexplore.ieee.org/document/8067489 
 * Dataset Link: http://opensar.sjtu.edu.cn/Data/Search 
 
-## OpenSARship-2.0<a name="OpenSARship-2.0"></a> 
+## 3. OpenSARship-2.0<a name="OpenSARship-2.0"></a> 
 * OpenSARShip 2.0 consists of 34528 image chips cropped from a total of 87 Sentinel-1 images.
 * The whole products are in the interferometric wide swath (IW) mode.
 * The OpenSARShip contains two available products of the IW mode: the single look complex (SLC) and the ground range detected (GRD) products.
@@ -84,7 +200,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Paper Link: https://ieeexplore.ieee.org/document/8124929 
 * Dataset Link: http://opensar.sjtu.edu.cn/Data/Search 
 
-## SAR-Ship-Dataset<a name="SAR-Ship-Dataset"></a>  
+## 4. SAR-Ship-Dataset<a name="SAR-Ship-Dataset"></a>  
 * It consists of 43819 ship chips of 256 × 256 pixels.
 * The specific dataset includes 59535 ship instances.
 * This dataset was created using 102 Chinese Gaofen-3 images and 108 Sentinel-1 images.
@@ -95,7 +211,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Paper Link: https://www.mdpi.com/2072-4292/11/7/765 
 * Dataset Link: https://github.com/CAESAR-Radi/SAR-Ship-Dataset 
 
-## AIR-SARShip-1.0<a name="AIR-SARShip-1.0"></a>  
+## 5. AIR-SARShip-1.0<a name="AIR-SARShip-1.0"></a>  
 * The AIR-SARShip-1.0 dataset is collected from the Gaofen-3 satellite, and contains 31 images of large scenes.
 * The imaging mode has both spotlight and strip modes. All images are in single polarization mode with a size of about 3000 × 3000 pixels.
 * The raw SAR images (3000 × 3000 pixels) cropped into 500 × 500 pixel sub-images. 
@@ -105,7 +221,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Paper Link: http://radars.ie.ac.cn/en/article/doi/10.12000/JR19097 
 * Dataset Link: http://radars.ie.ac.cn/web/data/getData?dataType=SARDataset_en&pageType=en 
 
-## AIR-SARShip-2.0 
+## 6. AIR-SARShip-2.0 
 * Dataset is collected from the Gaofen-3 satellite, and contains 300 images of large scenes.
 * The imaging mode has both spotlight and strip modes.
 * All images are in single polarization mode. 
@@ -115,7 +231,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Paper Link: http://radars.ie.ac.cn/en/article/doi/10.12000/JR19097 
 * Dataset Link: http://radars.ie.ac.cn/web/data/getData?dataType=SARDataset_en&pageType=en 
 
-## HRSID (High-Resolution SAR Images Dataset)<a name="HRSID"></a> 
+## 7. HRSID (High-Resolution SAR Images Dataset)<a name="HRSID"></a> 
 * The specific dataset contains 116 co-polarized and 20 cross-polarized SAR imageries.
 * The original imageries for constructing HRSID are 99 Sentinel-1B imageries, 36 TerraSAR-X and 1 TanDEM-X imageries.
 * The above 136 panoramic SAR imageries cropped to 5604 high-resolution SAR images.
@@ -128,7 +244,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Paper Link: https://ieeexplore.ieee.org/abstract/document/9127939
 * Dataset Link: https://github.com/chaozhong2010/HRSID 
 
-## LS-SSDD-v1.0 (Large-Scale SAR Ship Detection Dataset)<a name="LS-SSDD-v1.0"></a> 
+## 8. LS-SSDD-v1.0 (Large-Scale SAR Ship Detection Dataset)<a name="LS-SSDD-v1.0"></a> 
 * It consists of 15 large-scale SAR images, obtained from Sentinel-1 satellite, with size of 24000 × 16000 pixels.
 * These 15 large-scale SAR images were cut into 9000 sub-images with dimensions of 800 × 800 pixels.
 * The above 9000 images are in .jpeg format.
@@ -138,7 +254,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Paper Link: https://www.mdpi.com/2072-4292/12/18/2997/html 
 * Dataset Link: https://github.com/TianwenZhang0825/LS-SSDD-v1.0-OPEN 
 
-## FUSAR-Ship Dataset v1.0<a name="FUSAR-Ship"></a>  
+## 9. FUSAR-Ship Dataset v1.0<a name="FUSAR-Ship"></a>  
 * FUSAR-Ship dataset has a total of 15 ship categories, 98 ship subcategories, consisted of 126 GF-3 scenes covering various scenarios. The imaging mode of those 126 images is ultrafine strip-map (UFS) mode.
 * It includes over 5000 ship chips with AIS messages and some other types of marine targets and background clutters.
 * The above single-band ship images have dimensions of 512 × 512 pixels.
@@ -149,7 +265,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Paper Link: https://link.springer.com/article/10.1007/s11432-019-2772-5 
 * Dataset Link: http://www.emwlab.fudan.edu.cn/resources/main.psp 
 
-## SSDD (SAR Ship Detection Dataset) 2021<a name="SSDD1"></a> 
+## 10. SSDD (SAR Ship Detection Dataset) 2021<a name="SSDD1"></a> 
 * It consists of 1160 SAR images with dimensions of 500×350 pixels.
 * This specific dataset includes 2358 ship instances.
 * The spatial resolutions of SAR images are from 1 to 15 meters per pixel.
@@ -164,7 +280,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Paper Link: https://www.mdpi.com/2072-4292/13/18/3690 
 * Dataset Link: https://drive.google.com/file/d/1glNJUGotrbEyk43twwB9556AdngJsynZ/view?usp=sharing 
 
-## DSSDD (Dual-polarimetric SAR Ship Detection Dataset)<a name="DSSDD"></a> 
+## 11. DSSDD (Dual-polarimetric SAR Ship Detection Dataset)<a name="DSSDD"></a> 
 * The specific dataset contains 50 dual-polarimetric SAR images from Sentinel-1.
 * The above images were cropped to 1236 image slices with the size of 256x256 pixels.
 * These 1236 images have VV and VH polarizations which were then fused into R,G,B channels for the creation of the pseudo-color image.
@@ -178,7 +294,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Paper Link: https://www.mdpi.com/1424-8220/21/24/8478
 * Dataset Link: https://github.com/liyiniiecas/A_Dual-polarimetric_SAR_Ship_Detection_Dataset   
 
-## SRSDD-v1.0 (SAR Rotation Ship Detection Dataset)<a name="SRSDD-v1.0"></a> 
+## 12. SRSDD-v1.0 (SAR Rotation Ship Detection Dataset)<a name="SRSDD-v1.0"></a> 
 * It consists of 30 panoramic SAR tiles of the Chinese Gaofen-3 with a resolution of 1 m in range direction and azimuth.
 * These original SAR images are in spotlight (SL) mode with a HH and VV polarizations.
 * The above imageries were cropped to 666 smaller images with dimensions of 1024x1024 pixels.
@@ -195,7 +311,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Paper Link: https://www.mdpi.com/2072-4292/13/24/5104
 * Dataset Link: https://pan.baidu.com/s/1EonxuMSDVCnICwSsfWjYew **password:aC1Q**       
 
-## xView3-SAR (Multi-modal SAR Ship Detection + Characterization Dataset)<a name="xView3-SAR"></a> 
+## 13. xView3-SAR (Multi-modal SAR Ship Detection + Characterization Dataset)<a name="xView3-SAR"></a> 
 * 991 SAR scenes from Sentinel-1 at 20m resolution with 220,000+ vessel/non-vessel AIS-based annotations with length information.
 * Each xView3-SAR scene has additional, co-registered bathymetry, wind speed, wind quality, and other ancillary information.
 * The dataset has a total of ~1,422 gigapixels (4.7x larger than MS-COCO).
@@ -204,10 +320,225 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Each label has a confidence metric associated with its length at HIGH, MEDIUM, or LOW.
 * Paper Link: https://arxiv.org/abs/2206.00897
 * Dataset Link: https://iuu.xview.us/   
-    
-# Optical Satellite Datasets
+---  
+---
+## :eyes: Optical Satellite Datasets 
+## A) Table with available datasets:
+<table border="1" align="center"> 
+  <caption><b></b></caption> 
+  <tr>
+    <td rowspan="2"><b>No.</b></td>
+    <td rowspan="2"><b>Dataset Name</b></td>
+    <td rowspan="2"><b>Authors</b></td>
+    <td rowspan="2"><b>Year</b></td>
+    <td colspan="5"><b>Task</b></td>
+    <td rowspan="2"><b>Dataset Access</b></td>
+  </tr>
+  <tr>
+    <td><i>Detection</i></td>
+    <td><i>Semantic Segmentation</i></td>
+    <td><i>Instance Segmentation</i></td>
+    <td><i>Classification</i></td>
+    <td><i>Regression</i></td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>HRSC2016 (High Resolution Ship Collection 2016)</td>
+    <td>Liu et al.</td>
+    <td>2016</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:ballot_box_with_check:</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Ships in Satellite Imagery Dataset</td>
+    <td>Kaggle</td>
+    <td>2017</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:ballot_box_with_check:</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Airbus Ship Detection Challenge Dataset</td>
+    <td>Kaggle</td>
+    <td>2018</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:ballot_box_with_check:</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>xView Dataset</td>
+    <td>Lam et al.</td>
+    <td>2018</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:ballot_box_with_check:</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>DOTA (Dataset for Object deTection in Aerial images)</td>
+    <td>Xia et al.</td>
+    <td>2018</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:ballot_box_with_check:</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>TGRS-HRRSD (High-Resolution Remote Sensing object Detection)</td>
+    <td>Kaggle</td>
+    <td>2018</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:ballot_box_with_check:</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>MASATI-v2 (MAritime SATellite Imagery dataset)</td>
+    <td>Gallego et al.</td>
+    <td>2018</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:ballot_box_with_check:</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>DIOR (object Detection In Optical Remote sensing images)</td>
+    <td>Li et al.</td>
+    <td>2019</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>⛔</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>FGSD (Fine-Grained Ship Detection)</td>
+    <td>Chen et al.</td>
+    <td>2020</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>⛔</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>PSDS (Peruvian Ship Data Set) + MSDS (Mini Ship Data Set)</td>
+    <td>Cordova et al.</td>
+    <td>2020</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>⛔</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>FGSCR-42 (Fine-Grained Ship Classification in Remote sensing images)</td>
+    <td>Di et al.</td>
+    <td>2021</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:ballot_box_with_check:</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>ShipRSImageNet</td>
+    <td>Zhang et al.</td>
+    <td>2021</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:ballot_box_with_check:</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>S2-SHIPS</td>
+    <td>Ciocarlan et al.</td>
+    <td>2021</td>
+    <td>:heavy_check_mark:</td>
+    <td>:heavy_check_mark:</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:ballot_box_with_check:</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>GF1-LRSD</td>
+    <td>Wu et al.</td>
+    <td>2021</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>⛔</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>VHRShips</td>
+    <td>Kizilkaya et al.</td>
+    <td>2022</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>⛔</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>SDS (Dataset for Ship Detection and Segmentation)</td>
+    <td>Lee et al.</td>
+    <td>2022</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:heavy_check_mark:</td>
+    <td>:x:</td>
+    <td>:x:</td>
+    <td>⛔</td>
+  </tr>
+</table>
 
-## HRSC2016 (High Resolution Ship Collection 2016)<a name="HRSC2016"></a>
+---
+
+## B) Information about the datasets:
+## 1. HRSC2016 (High Resolution Ship Collection 2016)<a name="HRSC2016"></a>
 * Dataset contains 1061 images which derived from Google Earth. 
 * The above 1061 images including 70 sea images with 90 samples and 991 sea-land images with 2886 samples.
 * The image spatial resolutions are between 0.4 m and 2 m. 
@@ -220,7 +551,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Paper Link: https://www.scitepress.org/Papers/2017/61206/61206.pdf 
 * Dataset Link: https://www.kaggle.com/guofeng/hrsc2016 
 
-## Ships in Satellite Imagery Dataset<a name="Ships"></a> 
+## 2. Ships in Satellite Imagery Dataset<a name="Ships"></a> 
 * The specific Dataset includes 4000 images labeled with either a "ship" or "no-ship" classification.
 * These 4000 images are in .png format and have dimensions of 80 × 80 pixels. 
 * The colour depth of the above 4000 images is 24 bit (8 bits per channel).
@@ -233,7 +564,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
   * longitude_latitude: The longitude and latitude coordinates of the image center point, with values separated by a single underscore.
 * Dataset Link: https://www.kaggle.com/rhammell/ships-in-satellite-imagery 
 
-## Airbus Ship Detection Challenge Dataset<a name="Airbus"></a>  
+## 3. Airbus Ship Detection Challenge Dataset<a name="Airbus"></a>  
 * The specific dataset consists of 192556 images with size of 768 × 768 pixels.
 * These 192556 images contain 81723 ship instances.
 * The above 192556 images have resolution of 96 dpi, and there are in .jpeg format.
@@ -242,7 +573,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * The above .csv file contains the encoded pixel coordinates of each ship's oriented rectangular mask, for every ship instance in the specific image.
 * Dataset Link: https://www.kaggle.com/c/airbus-ship-detection/data 
 
-## xView Dataset<a name="xView"></a>   
+## 4. xView Dataset<a name="xView"></a>   
 * The xView dataset contains 1 million objects across 60 classes in over 1400 km<sup>2</sup> of imagery and released by the Defense Innovation Unit Experimental (DIUx) and the National Geospatial-intelligence Agency (NGA).
 * It consists of 1414 large scene images (GeoTIFF format) with dimensions ranging from 2772 × 2678 to 5121 × 3023 pixels.
 * These data is collected from WorldView-3 satellites at 0.3 m ground sample distance.
@@ -258,7 +589,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Paper Link: https://arxiv.org/abs/1802.07856 
 * Dataset Link: https://challenge.xviewdataset.org/download-links 
 
-## DOTA (Dataset for Object deTection in Aerial images)<a name="DOTA"></a>  
+## 5. DOTA (Dataset for Object deTection in Aerial images)<a name="DOTA"></a>  
 * It consists of 2806 images which they have dimensions of about 4000 × 4000 pixels. 
 * This dataset contains 15 different categories but only 14 main categories (because small vehicle and large vehicle are both subcategories of vehicle).
 * These 2806 images contain 43736 ship instances.
@@ -269,7 +600,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Paper Link: https://vision.cornell.edu/se3/wp-content/uploads/2018/03/2666.pdf 
 * Dataset Link: https://captain-whu.github.io/DOTA/dataset.html 
 
-## TGRS-HRRSD (High-Resolution Remote Sensing object Detection)<a name="TGRS"></a> 
+## 6. TGRS-HRRSD (High-Resolution Remote Sensing object Detection)<a name="TGRS"></a> 
 * It consists of 21761 images acquired from Google Earth and Baidu Map with the spatial resolution from 0.15m to 1.2 m.
 * There are 13 object categories and 55740 object instances in TGRS-HRRSD.
 * These 13 categories are: ship, airplane, baseball diamond, basketball court, bridge, crossroad, ground track field, harbor, parking lot, storage tank, T-junction, tennis court and vehicle.
@@ -279,7 +610,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Paper Link: - 
 * Dataset Link: https://www.kaggle.com/haashaatif/tgrshrrsd-dataset 
 
-## MASATI-v2 (MAritime SATellite Imagery dataset)<a name="MASATI"></a>
+## 7. MASATI-v2 (MAritime SATellite Imagery dataset)<a name="MASATI"></a>
 * The specific dataset consists of 7389 images with average dimensions of 512 × 512 pixels.
 * The above 7389 images were obtained from Microsoft Bing maps and they are stored as .png format.
 * In this dataset, each image has been manually labeled according to the following seven classes: 
@@ -295,7 +626,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Paper Link: https://www.mdpi.com/2072-4292/10/4/511 
 * Dataset Link: https://www.iuii.ua.es/datasets/masati/ 
 
-## DIOR(object Detection In Optical Remote sensing images)<a name="DIOR"></a>
+## 8. DIOR(object Detection In Optical Remote sensing images)<a name="DIOR"></a>
 * DIOR consists of 23463 optical remote sensing images and 192472 object instances that are manually labeled with axis‐aligned bounding boxes, covered by 20 common object categories.
 * The size of images in the dataset is 800 × 800 pixels and the spatial resolutions range from 0.5m to 30m.
 * The above images acquired from Google Earth.
@@ -304,7 +635,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Dataset Link 1: https://pan.baidu.com/s/1Fc-zJtHy-6iIewvsKWPDnA 
 * Dataset Link 2: http://www.escience.cn/people/gongcheng/DIOR.html
 
-## FGSD (Fine-Grained Ship Detection)<a name="FGSD"></a>
+## 9. FGSD (Fine-Grained Ship Detection)<a name="FGSD"></a>
 * The specific dataset contains 2612 images from 17 large ports including China, Japan, the United States and Spain.
 * The above images have dimensions of 930 × 930 pixels and their spatial resolutions range from 0.12m to 1.93m.
 * These images contain 5634 ship instances.
@@ -318,7 +649,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Paper Link: https://arxiv.org/abs/2003.06832 
 * Dataset: mail to :  ckyan@bupt.edu.cn
 
-## PSDS (Peruvian Ship Data Set)<a name="PSDS"></a>
+## 10A. PSDS (Peruvian Ship Data Set) AND Y<a name="PSDS"></a>
 * It consists of 1310 images with size of 900 × 900 pixels.
 * These 1310 images  include 9662 ship instances. 
 * PSDS is created from 22 satellite images of PERUSAT-1 with 0.7 m spatial resolution.
@@ -326,7 +657,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Paper Link: https://iopscience.iop.org/article/10.1088/1742-6596/1642/1/012003 
 * Dataset Link: -
 
-## MSDS (Mini Ship Data Set)<a name="MSDS"></a>
+## 10B. MSDS (Mini Ship Data Set)<a name="MSDS"></a>
 * The specific dataset consists of generating 2993 images of 900 × 900 pixels.
 * MSDS has been generated using Google Earth satellite images.
 * The extracted 2993 images contain 4710 ship instances.
@@ -334,7 +665,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Paper Link: https://iopscience.iop.org/article/10.1088/1742-6596/1642/1/012003 
 * Dataset Link: -
 
-## FGSCR-42 (Fine-Grained Ship Classification in Remote sensing images)<a name="FGSCR"></a> 
+## 11. FGSCR-42 (Fine-Grained Ship Classification in Remote sensing images)<a name="FGSCR"></a> 
 * It consists of 9320 optical satellite images in different spatial resolutions.
 * These images contain 9320 ship instances (its classification so: 1 image = 1 instance).
 * The size of images in FGSCR-42 ranges from about 50 × 50 to about 1500 × 1500 pixels. 
@@ -353,7 +684,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Paper Link: https://www.mdpi.com/2072-4292/13/4/747 
 * Dataset Link: https://pan.baidu.com/s/1eXplDfB5fCBPm7WMcFKZkg **password: 9xx8**
     
-## ShipRSImageNet<a name="ShipRSImageNet"></a> 
+## 12. ShipRSImageNet<a name="ShipRSImageNet"></a> 
 * ShipRSImageNet contains over 3435 images with 17573 ship instances, annotated with both horizontal and orientated bounding boxes.
 * The above 3435 images were obtained from various sensors, satellite platforms, locations, and seasons. 
 * Each image is around 930×930 pixels and contains ships with different scales, orientations, and aspect ratios. 
@@ -375,7 +706,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Paper Link: https://ieeexplore.ieee.org/document/9512396 
 * Dataset Link: https://drive.google.com/file/d/1wApkaSoa9mXRfXQiq6lTtlVrv4cSc6vv/view   
 
-## S2-SHIPS<a name="S2ships"></a>
+## 13. S2-SHIPS<a name="S2ships"></a>
 * This dataset includes 16 L2A (BOA reflectance) images of coastline, ports, and the Suez canal. 
 * These images were derived from the original Sentinel-2 images and their dimensions are 1783 × 938 pixels.
 * The above images contain 1053 distinct ship instances with varying sizes from 100-5000 m<sup>2</sup>.
@@ -396,7 +727,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Paper Link: https://www.mdpi.com/2072-4292/13/21/4255
 * Dataset Link: https://drive.google.com/file/d/1zDgz6wr5kxikPR7o9nJ2IjMcaqwtiLLu/view  
 
-## GF1-LRSD<a name="GF1LRSD"></a> 
+## 14. GF1-LRSD<a name="GF1LRSD"></a> 
 * The images in this dataset were obtained from level 1A Gaofen-1 (WFV) scenes.
 * GF1-LRSD consists of 4406 images of size 512x512 pixels with 8-bit color depth.
 * The above images contain a total of 7172 ship instances.
@@ -406,7 +737,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Paper Link: https://www.mdpi.com/2072-4292/13/19/3890/html 
 * Dataset Link: -
 
-## VHRShips<a name="VHRShips"></a> 
+## 15. VHRShips<a name="VHRShips"></a> 
 * VHRShips contains 6312 images from 52 locations collected from Google Earth. 
 * The above dataset includes 1000 images without a ship and 5312 images with single or multiple ships.
 * All images were collected at 500m eye altitude level and in the high-definition spatial resolution format (Google Earth).
@@ -420,7 +751,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Paper Link: https://www.mdpi.com/2220-9964/11/8/445
 * Dataset Link: https://github.com/radres333/VHRShips
 
-## SDS (Dataset for Ship Detection and Segmentation)<a name="SDS"></a>
+## 16. SDS (Dataset for Ship Detection and Segmentation)<a name="SDS"></a>
 * The dataset contains 1984 images of harbors, shorelines, shallow waters, and vast oceans.
 * These data collected under various conditions such as shooting time, ship location, and climate variations.
 * The above images have dimensions of 3000 × 3000 pixels and were collected from the Google Earth platform.
@@ -436,10 +767,6 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Paper Link: https://www.mdpi.com/1424-8220/22/23/9491
 * Dataset Link: -
 
-
-    
 </div align="justify">    
 
-
 [Go To TOP](#TOP)
- 
