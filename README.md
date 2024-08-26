@@ -25,7 +25,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
   </tr>
   <tr>
     <td>1</td>
-    <td>SSDD (SAR Ship Detection Dataset)</td>
+    <td><a href="#SSDD">SSDD (SAR Ship Detection Dataset)</a></td>
     <td>Li et al.</td>
     <td>2017</td>
     <td>:heavy_check_mark:</td>
