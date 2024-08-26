@@ -1,11 +1,11 @@
 ![GitHub latest commit](https://img.shields.io/maintenance/yes/2023?style=plastic&service=github)
 ![GitHub latest commit](https://img.shields.io/github/last-commit/jasonmanesis/Satellite-Imagery-Datasets-Containing-Ships?style=plastic&service=github)
 
-# Satellite imagery datasets containing ships.<a name="TOP"></a> 
+# **Satellite imagery datasets containing ships.**<a name="TOP"></a> 
 A list of radar and optical satellite datasets for ship detection, classification, semantic segmentation and instance segmentation tasks.
 
-## :satellite: Radar Satellite Datasets : 
-
+# :satellite: Radar Satellite Datasets 
+## A) Table with available datasets:
 <table border="1" align="center"> 
   <caption><b></b></caption> 
   <tr>
@@ -14,7 +14,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
     <td rowspan="2"><b>Authors</b></td>
     <td rowspan="2"><b>Year</b></td>
     <td colspan="5"><b>Task</b></td>
-    <td rowspan="2"><b>Access</b></td>
+    <td rowspan="2"><b>Dataset Access</b></td>
   </tr>
   <tr>
     <td><i>Detection</i></td>
@@ -157,6 +157,9 @@ A list of radar and optical satellite datasets for ship detection, classificatio
   </tr>
 </table>
 
+---
+
+## B) Information about the datasets:
 ## 1. SSDD (SAR Ship Detection Dataset)<a name="SSDD"></a> 
 * It consists of 1160 SAR images with average dimensions of 500×500 pixels.
 * This specific dataset includes 2358 ship instances.
@@ -319,7 +322,8 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Dataset Link: https://iuu.xview.us/   
 ---  
 ---
-## :eyes: Optical Satellite Datasets : 
+## :eyes: Optical Satellite Datasets 
+## A) Table with available datasets:
 <table border="1" align="center"> 
   <caption><b></b></caption> 
   <tr>
@@ -328,7 +332,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
     <td rowspan="2"><b>Authors</b></td>
     <td rowspan="2"><b>Year</b></td>
     <td colspan="5"><b>Task</b></td>
-    <td rowspan="2"><b>Access</b></td>
+    <td rowspan="2"><b>Dataset Access</b></td>
   </tr>
   <tr>
     <td><i>Detection</i></td>
@@ -531,6 +535,9 @@ A list of radar and optical satellite datasets for ship detection, classificatio
   </tr>
 </table>
 
+---
+
+## B) Information about the datasets:
 ## 1. HRSC2016 (High Resolution Ship Collection 2016)<a name="HRSC2016"></a>
 * Dataset contains 1061 images which derived from Google Earth. 
 * The above 1061 images including 70 sea images with 90 samples and 991 sea-land images with 2886 samples.
