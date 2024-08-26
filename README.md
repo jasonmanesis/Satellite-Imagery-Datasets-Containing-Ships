@@ -649,7 +649,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * Paper Link: https://arxiv.org/abs/2003.06832 
 * Dataset: mail to :  ckyan@bupt.edu.cn
 
-## 10A. PSDS (Peruvian Ship Data Set) AND Y<a name="PSDS"></a>
+## 10A. PSDS (Peruvian Ship Data Set)<a name="PSDS"></a>
 * It consists of 1310 images with size of 900 × 900 pixels.
 * These 1310 images  include 9662 ship instances. 
 * PSDS is created from 22 satellite images of PERUSAT-1 with 0.7 m spatial resolution.
