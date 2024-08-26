@@ -1,4 +1,4 @@
-![GitHub latest commit](https://img.shields.io/maintenance/yes/2023?style=plastic&service=github)
+![GitHub latest commit](https://img.shields.io/maintenance/yes/2024?style=plastic&service=github)
 ![GitHub latest commit](https://img.shields.io/github/last-commit/jasonmanesis/Satellite-Imagery-Datasets-Containing-Ships?style=plastic&service=github)
 
 # **Satellite imagery datasets containing ships.**<a name="TOP"></a> 
