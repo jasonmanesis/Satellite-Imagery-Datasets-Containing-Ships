@@ -241,6 +241,7 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 * The spatial resolutions of SAR images are 0.5, 1 and 3 meters per pixel.
 * The annotations of each instance are the corresponding bounding box and the ship's outline. 
 * The annotations of each SAR image constitute a .json file in MS COCO dataset format.
+* Rotated bounding box annotations of HRSID are available at Baidu Cloud: https://pan.baidu.com/s/1FulIYUtJDWD-5EgBuHulTQ (Extraction code: rsdd)
 * Paper Link: https://ieeexplore.ieee.org/abstract/document/9127939
 * Dataset Link: https://github.com/chaozhong2010/HRSID 
 
