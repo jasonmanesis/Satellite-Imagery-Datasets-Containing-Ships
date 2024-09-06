@@ -1,5 +1,7 @@
 ![GitHub latest commit](https://img.shields.io/maintenance/yes/2024?style=plastic&service=github)
 ![GitHub latest commit](https://img.shields.io/github/last-commit/jasonmanesis/Satellite-Imagery-Datasets-Containing-Ships?style=plastic&service=github)
+![Contributions](https://img.shields.io/badge/contributions-welcome-lightblue?style=plastic)
+![Contributions](https://img.shields.io/badge/license-MIT-lightblue?style=plastic)
 
 # **Satellite imagery datasets containing ships.**<a name="TOP"></a> 
 A list of radar and optical satellite datasets for ship detection, classification, semantic segmentation and instance segmentation tasks.
