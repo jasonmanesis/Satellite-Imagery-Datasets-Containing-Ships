@@ -773,3 +773,18 @@ A list of radar and optical satellite datasets for ship detection, classificatio
 </div align="justify">    
 
 [Go To TOP](#TOP)
+
+# Citation
+
+If you use this repository in your research, please cite it as:
+
+```bibtex
+@misc{manesis2025satellite,
+  author       = {Jason Manesis},
+  title        = {Satellite Imagery Datasets Containing Ships},
+  year         = {2025},
+  publisher    = {GitHub},
+  url          = {https://github.com/jasonmanesis/Satellite-Imagery-Datasets-Containing-Ships},
+  note         = {Dataset available at GitHub. Accessed: 2025-01-18},
+  howpublished = {\url{https://github.com/jasonmanesis/Satellite-Imagery-Datasets-Containing-Ships}}
+}
