@@ -4,7 +4,13 @@
 ![Contributions](https://img.shields.io/badge/license-MIT-lightblue?style=plastic)
 
 # **Satellite imagery datasets containing ships.**<a name="TOP"></a> 
-A list of radar and optical satellite datasets for ship detection, classification, semantic segmentation and instance segmentation tasks.
+
+<p align="justify">
+This repository provides a comprehensive list of radar and optical satellite datasets curated for ship detection, classification, semantic segmentation, and instance segmentation tasks. These datasets are ideal for applications in computer vision, machine learning, remote sensing, and maritime analysis. 
+Explore high-quality datasets tailored for both research and real-world applications, including maritime surveillance, naval operations, and the development of autonomous systems.
+
+If you find this repository useful, please consider giving it a ⭐ star. Your support helps the project grow. Thank you!  
+</p>
 
 # :satellite: Radar Satellite Datasets 
 ## A) Table with available datasets:
